@@ -1,0 +1,186 @@
+body{
+font-family: "Montserrat";
+text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family:"Montserrat";
+  font-weight: bold;
+}
+
+p{
+  color:#2366B1;
+}
+
+.colored-section{
+  background-color:#FFF;
+  color: #2366B1;
+}
+
+/*Navigation bar*/
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+/*Buy button*/
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/*Title section*/
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/*Title Image*/
+
+.title-image{
+  width: 70%;
+  position: absolute;
+  right: 5%;
+}
+
+/*Testimonials*/
+
+#testimonials{
+  background-color: #FAD201;
+}
+
+#testimonials h2{
+  padding-top: 30px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+/*Press Section*/
+
+#press{
+  background-color: #FAD201;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+/*Pricing Section*/
+
+#pricing{
+  padding: 100px;
+  background-color: #FFF;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+#cta{
+  background-color: #FAD201;
+}
+
+#cta h1{
+  padding-top: 20px;
+}
+
+/* Contacto */
+
+#contacto{
+  background-color: #303030;
+  background-image: url("images/map-image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.contacto-title{
+  font-size: 2.5rem;
+  font-weight:bold;
+  text-align: center;
+}
+
+#contacto h2{
+  padding-top: 20px;
+  color: white;
+}
+
+#contacto input{
+  color: #2366B1;
+  padding: 20px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#contacto textarea{
+  color:#2366B1;
+  margin: 20px 0;
+  padding: 20px;
+  width: 400px;
+}
+
+#contacto button{
+  padding: 20px 40px;
+  border-color: #fed136;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.footer{
+  background-color: #FFF;
+  text-align: center;
+  padding:7% 15%;
+}
+
+.social-icon{
+  color: color:#2366B1;
+  margin: 20px 10px;
+}
+
+@media (max-width:1028px){
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
